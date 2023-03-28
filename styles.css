@@ -1,0 +1,43 @@
+.grid-container {
+    display: grid;
+    gap: 1px;
+    background-color: #fff;
+    border: 1px solid #999;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    overflow: auto;
+    box-sizing: border-box;
+  }
+  
+  .grid-item {
+    background-color: #fff;
+    border: 1px solid #999;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .grid-item::before {
+    content: '';
+    display: block;
+    padding-top: 100%;
+  }
+  
+
+.controls {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+  
+.controls label {
+    margin-right: 10px;
+}
+  
+.controls input {
+    width: 50px;
+}
+  
