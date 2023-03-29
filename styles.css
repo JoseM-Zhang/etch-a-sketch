@@ -10,7 +10,7 @@
     box-sizing: border-box;
   }
   
-  .grid-item {
+.grid-item {
     background-color: #fff;
     border: 1px solid #999;
     padding: 0;
@@ -18,13 +18,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
   
-  .grid-item::before {
+.grid-item::before {
     content: '';
     display: block;
     padding-top: 100%;
-  }
+}
   
 
 .controls {
